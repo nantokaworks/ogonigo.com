@@ -1,0 +1,78 @@
+/* general */
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+/* container */
+div#container {
+	background-color: #FFFFFF;
+	position: relative;
+	min-height: 100%;
+}
+
+/* header_wrap */
+div#header_wrap {
+	padding: 0 0 0 0;
+	height: 140px;
+	width: 100%;
+}
+/* header */
+div#header {
+	/* v middle */
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+	/* other */
+	margin: auto;
+	width: 200px;
+}
+
+/* contents_wrap */
+div#contents_wrap {
+	width: 100%;
+	margin: 0 0 0 0;
+	padding-bottom: 200px;	/* footer whole height */
+}
+/* contents */
+div#contents {
+}
+
+/* footer_wrap */
+div#footer_wrap {
+	width: 100%;
+	height: 180px;
+	position: absolute;
+	bottom: 0px;
+	padding: 20px 0 0 0;
+}
+/* footer */
+div#footer{
+	height: 180px;
+	width: 200px;
+	margin: auto;
+	text-align: center;
+}
+
+/* top menu */
+div#top_menu {
+	background-color: #F3F3F3;
+	height: 150px;
+	text-align: center;
+}
+.top_menu_icon {
+	/* v middle */
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+	/* other */
+	margin: auto;
+}
