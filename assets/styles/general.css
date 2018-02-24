@@ -1,3 +1,6 @@
+/* font */
+.wf-mplus1p { font-family: "Mplus 1p"; }
+
 /* general */
 * {
   box-sizing:border-box;
@@ -8,6 +11,7 @@ html, body {
 	height: 100%;
 	width: 100%;
 	background-color: #efefef;
+	font-family: "Mplus 1p";
 }
 a:link { color: #555555; text-decoration: none; }
 a:visited { color: #555555; text-decoration: none; }
