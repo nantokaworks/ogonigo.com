@@ -4,61 +4,63 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta http-equiv="Content-Style-Type" content="text/css" />
 	<meta http-equiv="Content-Script-Type" content="text/javascript" />
-	<meta content="Shinichi yamashita" name="author" />
-	<meta content="Shinichi yamashita" name="copyright" />
+	<meta content="Shinichi Yamashita" name="author" />
+	<meta content="Shinichi Yamashita" name="copyright" />
 	<meta name="description" content="" />
-	
+
 	<title>OGONIGO.COM</title>
-	
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="stylesheet" href="./assets/style/index.css" type="text/css" />
-	<link rel="shortcut icon" href="./assets/favicon.ico" />	
+
+	<link rel="shortcut icon" href="assets/favicon.ico" />
+	<link rel="stylesheet" href="assets/style/index.css">
 </head>
 <body>
-	<div id="container">
-		<div id="header_wrap">
-			<div id="header">
-				<img
-					src="./assets/img/logo.gif"
-					srcset="./assets/img/logo.gif 1x,
-									./assets/img/logo@2x.gif 2x"
-					width="205"
-					height="25"
-					border="0"
-					alt="logo"
-				/>
-			</div>
+<div class="container">
+	<div class="title">
+		<div class="title-item">
+			<img
+				class="title-prince"
+				src="assets/img/prince.svg"
+				alt="prince"
+			/>
 		</div>
-		<div id="contents_wrap">
-			<div id="contents">
-				<div id="top_menu">
-					<a href="./download/froit_02.zip">
-						<img
-							class="top_menu_icon"
-							src="./assets/img/app_frontit.png"
-							srcset="./assets/img/app_frontit.png 1x,
-											./assets/img/app_frontit@2x.png 2x"							
-							border="0"
-							alt="frontit" />
-					</a>
-				</div>
-			</div>
-		</div>
-		<div id="footer_wrap">
-			<div id="footer">
-				<img
-					src="./assets/img/footer.gif"
-					srcset="./assets/img/footer.gif 1x,
-									./assets/img/footer@2x.gif 2x"							
-					border="0"
-					alt="footer" />
-			</div>
+		<div class="title-item">
+			<img
+				class="title-logo"
+				src="assets/img/logo.svg"
+				alt="logo"
+			/>
 		</div>
 	</div>
-	
-	<!-- bootstrap -->
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<div class="cards">
+		<div class="card">
+			<a href="https://scrapbox.io/ogonigo">
+				<img
+					src="https://i.gyazo.com/7057219f5b20ca8afd122945b72453d3.png"
+					alt="scrapbox"
+				/>
+				<h4 class="card-title">ScrapBox</h4>
+			</a>
+      <div class="card-text">ブログの代わり、技術系の覚書やただのメモなどを公開しています</div>
+		</div>		
+		<div class="card">
+			<a href="https://twitter.com/ichi0g0y">
+				<img src="assets/img/twitter.svg"	alt="twitter"/>
+				<h4 class="card-title">Twitter</h4>
+			</a>
+      <div class="card-text">ほとんど呟きませんが、その時思ったことを適当に呟きます</div>
+		</div>
+		<div class="card">
+			<a href="download/froit_02.zip">
+				<img
+					src="assets/img/app_frontit.svg"
+					alt="frontit"
+				/>
+				<h4 class="card-title">FrontIt</h4>
+			</a>
+      <div class="card-text">ウインドウを最前面で固定するユーティリティ<div>windows only</div></div>
+		</div>
+	</div>
+	<div class="cards-end" />
+</div>
 </body>
 </html>
